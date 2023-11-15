@@ -1,6 +1,5 @@
 # projeto-web
 
-
-WEB DJANGO!
+WEB 
 
 
