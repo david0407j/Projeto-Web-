@@ -1,5 +1,21 @@
 [
     {
+        "label": "Client",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -29,14 +45,6 @@
         "description": "django.db",
         "isExtraImport": true,
         "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
-        "isExtraImport": true,
-        "detail": "django.test",
         "documentation": {}
     },
     {
@@ -103,6 +111,15 @@
         "importPath": "sys",
         "description": "sys",
         "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "test_status_code",
+        "kind": 2,
+        "importPath": "pypro.base.tests .test_home",
+        "description": "pypro.base.tests .test_home",
+        "peekOfCode": "def test_status_code(client: Client):\n   resp = client.get('/')\n   assert resp.status_code == 200",
+        "detail": "pypro.base.tests .test_home",
         "documentation": {}
     },
     {
