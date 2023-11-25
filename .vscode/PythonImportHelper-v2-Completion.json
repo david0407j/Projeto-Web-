@@ -110,15 +110,6 @@
         "documentation": {}
     },
     {
-        "label": "functools",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "functools",
-        "description": "functools",
-        "detail": "functools",
-        "documentation": {}
-    },
-    {
         "label": "partial",
         "importPath": "functools",
         "description": "functools",
