@@ -349,7 +349,7 @@
         "kind": 5,
         "importPath": "pypro.settings",
         "description": "pypro.settings",
-        "peekOfCode": "ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'pypro.base',",
+        "peekOfCode": "ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'collectfast',",
         "detail": "pypro.settings",
         "documentation": {}
     },
@@ -358,7 +358,7 @@
         "kind": 5,
         "importPath": "pypro.settings",
         "description": "pypro.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'pypro.base',\n]\nMIDDLEWARE = [",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'collectfast',\n    'pypro.base',\n]",
         "detail": "pypro.settings",
         "documentation": {}
     },
