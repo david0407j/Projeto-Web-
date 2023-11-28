@@ -78,11 +78,277 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "transaction",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "pypro.base.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pypro.base.models",
+        "description": "pypro.base.models",
+        "detail": "pypro.base.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "pypro.base.models",
+        "description": "pypro.base.models",
+        "isExtraImport": true,
+        "detail": "pypro.base.models",
+        "documentation": {}
+    },
+    {
         "label": "Client",
         "importPath": "django.test",
         "description": "django.test",
         "isExtraImport": true,
         "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "IS_POPUP_VAR",
+        "importPath": "django.contrib.admin.options",
+        "description": "django.contrib.admin.options",
+        "isExtraImport": true,
+        "detail": "django.contrib.admin.options",
+        "documentation": {}
+    },
+    {
+        "label": "unquote",
+        "importPath": "django.contrib.admin.utils",
+        "description": "django.contrib.admin.utils",
+        "isExtraImport": true,
+        "detail": "django.contrib.admin.utils",
+        "documentation": {}
+    },
+    {
+        "label": "update_session_auth_hash",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "AdminPasswordChangeForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserChangeForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionDenied",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "Http404",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponseRedirect",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "TemplateResponse",
+        "importPath": "django.template.response",
+        "description": "django.template.response",
+        "isExtraImport": true,
+        "detail": "django.template.response",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "method_decorator",
+        "importPath": "django.utils.decorators",
+        "description": "django.utils.decorators",
+        "isExtraImport": true,
+        "detail": "django.utils.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "escape",
+        "importPath": "django.utils.html",
+        "description": "django.utils.html",
+        "isExtraImport": true,
+        "detail": "django.utils.html",
+        "documentation": {}
+    },
+    {
+        "label": "gettext",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "gettext_lazy",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "gettext_lazy",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "csrf_protect",
+        "importPath": "django.views.decorators.csrf",
+        "description": "django.views.decorators.csrf",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.csrf",
+        "documentation": {}
+    },
+    {
+        "label": "sensitive_post_parameters",
+        "importPath": "django.views.decorators.debug",
+        "description": "django.views.decorators.debug",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.debug",
         "documentation": {}
     },
     {
@@ -94,11 +360,43 @@
         "documentation": {}
     },
     {
-        "label": "HttpResponse",
-        "importPath": "django.http",
-        "description": "django.http",
+        "label": "AbstractBaseUser",
+        "importPath": "django.contrib.auth.base_user",
+        "description": "django.contrib.auth.base_user",
         "isExtraImport": true,
-        "detail": "django.http",
+        "detail": "django.contrib.auth.base_user",
+        "documentation": {}
+    },
+    {
+        "label": "BaseUserManager",
+        "importPath": "django.contrib.auth.base_user",
+        "description": "django.contrib.auth.base_user",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.base_user",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionsMixin",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
         "documentation": {}
     },
     {
@@ -148,22 +446,6 @@
         "description": "decouple",
         "isExtraImport": true,
         "detail": "decouple",
-        "documentation": {}
-    },
-    {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
         "documentation": {}
     },
     {
@@ -273,12 +555,48 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "pypro.base.migrations.0001_initial",
+        "description": "pypro.base.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "pypro.base.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
         "label": "test_status_code",
         "kind": 2,
         "importPath": "pypro.base.tests.test_home",
         "description": "pypro.base.tests.test_home",
         "peekOfCode": "def test_status_code(client: Client):\n   resp = client.get('/')\n   assert resp.status_code == 200",
         "detail": "pypro.base.tests.test_home",
+        "documentation": {}
+    },
+    {
+        "label": "UserAdmin",
+        "kind": 6,
+        "importPath": "pypro.base.admin",
+        "description": "pypro.base.admin",
+        "peekOfCode": "class UserAdmin(admin.ModelAdmin):\n    add_form_template = \"admin/auth/user/add_form.html\"\n    change_user_password_template = None\n    fieldsets = (\n        (None, {\"fields\": (\"first_name\", \"email\", \"password\")}),\n        (\n            _(\"Permissions\"),\n            {\n                \"fields\": (\n                    \"is_active\",",
+        "detail": "pypro.base.admin",
+        "documentation": {}
+    },
+    {
+        "label": "csrf_protect_m",
+        "kind": 5,
+        "importPath": "pypro.base.admin",
+        "description": "pypro.base.admin",
+        "peekOfCode": "csrf_protect_m = method_decorator(csrf_protect)\nsensitive_post_parameters_m = method_decorator(sensitive_post_parameters())\n@admin.register(User)\nclass UserAdmin(admin.ModelAdmin):\n    add_form_template = \"admin/auth/user/add_form.html\"\n    change_user_password_template = None\n    fieldsets = (\n        (None, {\"fields\": (\"first_name\", \"email\", \"password\")}),\n        (\n            _(\"Permissions\"),",
+        "detail": "pypro.base.admin",
+        "documentation": {}
+    },
+    {
+        "label": "sensitive_post_parameters_m",
+        "kind": 5,
+        "importPath": "pypro.base.admin",
+        "description": "pypro.base.admin",
+        "peekOfCode": "sensitive_post_parameters_m = method_decorator(sensitive_post_parameters())\n@admin.register(User)\nclass UserAdmin(admin.ModelAdmin):\n    add_form_template = \"admin/auth/user/add_form.html\"\n    change_user_password_template = None\n    fieldsets = (\n        (None, {\"fields\": (\"first_name\", \"email\", \"password\")}),\n        (\n            _(\"Permissions\"),\n            {",
+        "detail": "pypro.base.admin",
         "documentation": {}
     },
     {
@@ -291,11 +609,29 @@
         "documentation": {}
     },
     {
+        "label": "UserManager",
+        "kind": 6,
+        "importPath": "pypro.base.models",
+        "description": "pypro.base.models",
+        "peekOfCode": "class UserManager(BaseUserManager):\n    use_in_migrations = True\n    def _create_user(self, email, password, **extra_fields):\n        \"\"\"\n        Create and save a user with the given email, and password.\n        \"\"\"\n        if not email:\n            raise ValueError('The given email must be set')\n        email = self.normalize_email(email)\n        user = self.model(email=email, **extra_fields)",
+        "detail": "pypro.base.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "pypro.base.models",
+        "description": "pypro.base.models",
+        "peekOfCode": "class User(AbstractBaseUser, PermissionsMixin):\n    \"\"\"\n    app base User class\n    Email and password are required. Other fields are optional.\n    \"\"\"\n    first_name = models.CharField(_(\"first name\"), max_length=150, blank=True)\n    email = models.EmailField(_(\"email address\"), unique=True)\n    is_staff = models.BooleanField(\n        _(\"staff status\"),\n        default=False,",
+        "detail": "pypro.base.models",
+        "documentation": {}
+    },
+    {
         "label": "home",
         "kind": 2,
         "importPath": "pypro.base.views",
         "description": "pypro.base.views",
-        "peekOfCode": "def home(request):\n    return HttpResponse('Deus e mais ')",
+        "peekOfCode": "def home(request):\n    return HttpResponse(' Deus ')",
         "detail": "pypro.base.views",
         "documentation": {}
     },
@@ -313,7 +649,7 @@
         "kind": 5,
         "importPath": "pypro.settings",
         "description": "pypro.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = config('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = config('DEBUG', cast=bool)\nALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = config('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = config('DEBUG', cast=bool)\nALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())\nAUTH_USER_MODEL = 'base.User'\n# Application definition",
         "detail": "pypro.settings",
         "documentation": {}
     },
@@ -322,7 +658,7 @@
         "kind": 5,
         "importPath": "pypro.settings",
         "description": "pypro.settings",
-        "peekOfCode": "SECRET_KEY = config('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = config('DEBUG', cast=bool)\nALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = config('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = config('DEBUG', cast=bool)\nALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())\nAUTH_USER_MODEL = 'base.User'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
         "detail": "pypro.settings",
         "documentation": {}
     },
@@ -331,7 +667,7 @@
         "kind": 5,
         "importPath": "pypro.settings",
         "description": "pypro.settings",
-        "peekOfCode": "DEBUG = config('DEBUG', cast=bool)\nALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = config('DEBUG', cast=bool)\nALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())\nAUTH_USER_MODEL = 'base.User'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
         "detail": "pypro.settings",
         "documentation": {}
     },
@@ -340,7 +676,16 @@
         "kind": 5,
         "importPath": "pypro.settings",
         "description": "pypro.settings",
-        "peekOfCode": "ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'collectfast',",
+        "peekOfCode": "ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())\nAUTH_USER_MODEL = 'base.User'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "pypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "pypro.settings",
+        "description": "pypro.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'base.User'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'collectfast',",
         "detail": "pypro.settings",
         "documentation": {}
     },
@@ -520,7 +865,16 @@
         "kind": 5,
         "importPath": "pypro.settings",
         "description": "pypro.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')",
+        "detail": "pypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECURE_PROXY_SSL_HEADER",
+        "kind": 5,
+        "importPath": "pypro.settings",
+        "description": "pypro.settings",
+        "peekOfCode": "SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')",
         "detail": "pypro.settings",
         "documentation": {}
     },
