@@ -160,6 +160,14 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -281,6 +289,14 @@
     },
     {
         "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
         "importPath": "django.urls",
         "description": "django.urls",
         "isExtraImport": true,
@@ -631,7 +647,7 @@
         "kind": 2,
         "importPath": "pypro.base.views",
         "description": "pypro.base.views",
-        "peekOfCode": "def home(request):\n    return HttpResponse(' Deus ')",
+        "peekOfCode": "def home(request):\n    return HttpResponse('<html><body>Hola Django</body></html>', content_type='text/html')",
         "detail": "pypro.base.views",
         "documentation": {}
     },
@@ -730,7 +746,16 @@
         "kind": 5,
         "importPath": "pypro.settings",
         "description": "pypro.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'pypro.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\ndefault_db_url = 'sqlite:///' + os.path.join(BASE_DIR, 'db.sqlite3')\nparse_database = partial(dj_database_url.parse, conn_max_age=600)\nDATABASES = {\n    'default': config('DATABASE_URL', default=default_db_url, cast=parse_database)\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators",
+        "peekOfCode": "WSGI_APPLICATION = 'pypro.wsgi.application'\n# configuração Debug Tollbar\nINTERNAL_IPS = config('INTERNAL_IPS', cast=Csv(), default='127.0.0.1')\nif DEBUG:\n    INSTALLED_APPS.append('debug_toolbar')\n    MIDDLEWARE.insert(0, 'debug_toolbar.middleware.DebugToolbarMiddleware')\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\ndefault_db_url = 'sqlite:///' + os.path.join(BASE_DIR, 'db.sqlite3')\nparse_database = partial(dj_database_url.parse, conn_max_age=600)",
+        "detail": "pypro.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INTERNAL_IPS",
+        "kind": 5,
+        "importPath": "pypro.settings",
+        "description": "pypro.settings",
+        "peekOfCode": "INTERNAL_IPS = config('INTERNAL_IPS', cast=Csv(), default='127.0.0.1')\nif DEBUG:\n    INSTALLED_APPS.append('debug_toolbar')\n    MIDDLEWARE.insert(0, 'debug_toolbar.middleware.DebugToolbarMiddleware')\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\ndefault_db_url = 'sqlite:///' + os.path.join(BASE_DIR, 'db.sqlite3')\nparse_database = partial(dj_database_url.parse, conn_max_age=600)\nDATABASES = {\n    'default': config('DATABASE_URL', default=default_db_url, cast=parse_database)",
         "detail": "pypro.settings",
         "documentation": {}
     },
@@ -883,7 +908,7 @@
         "kind": 5,
         "importPath": "pypro.urls",
         "description": "pypro.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', home),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', home),\n]\nif settings.DEBUG:\n    import debug_toolbar\n    urlpatterns.append(\n        path('__debug__/', include(debug_toolbar.urls))\n    )",
         "detail": "pypro.urls",
         "documentation": {}
     },

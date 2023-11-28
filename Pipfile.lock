@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "615d83b972e5bda0f33b76aad49bdd7540924f69b01485788ea958e8f0aa42da"
+            "sha256": "202232b0dc673a3d0db0b33bbae0bf4da04239362296d7a2bc5371b8ae61a974"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -26,19 +26,19 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:799fe8399ea132aa5aa868caf78c47ef9ed675d5ef61be97cb7131081bb8a861",
-                "sha256:ebf6d86217c37986f965dbe35a3bbd0318127d23a65737ab6486667496decb54"
+                "sha256:70626598dd6698d6da8f2854a1ae5010f175572e2a465b2aa86685c745c1013c",
+                "sha256:fc7c0dd5fa74ae0d57e11747695bdba4ad164e62dee35db15b43762c392fbd92"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.33.0"
+            "version": "==1.33.2"
         },
         "botocore": {
             "hashes": [
-                "sha256:ccf3d67fd046265ae73bc9862d1618c6e774a61a96beac832edb63d9a21fe1ba",
-                "sha256:e35526421fe8ee180b6aed3102929594aa51e4d60e3f29366a603707c37c0d52"
+                "sha256:16a30faac6e6f17961c009defb74ab1a3508b8abc58fab98e7cf96af0d91ea84",
+                "sha256:5c46b7e8450efbf7ddc2a0016eee7225a5564583122e25a20ca92a29a105225c"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.33.0"
+            "version": "==1.33.2"
         },
         "collectfast": {
             "hashes": [
@@ -65,6 +65,15 @@
             "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==4.2.7"
+        },
+        "django-debug-toolbar": {
+            "hashes": [
+                "sha256:af99128c06e8e794479e65ab62cc6c7d1e74e1c19beb44dcbf9bad7a9c017327",
+                "sha256:bc7fdaafafcdedefcc67a4a5ad9dac96efd6e41db15bc74d402a54a2ba4854dc"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==4.2.0"
         },
         "django-s3-folder-storage": {
             "hashes": [
@@ -236,11 +245,11 @@
         },
         "s3transfer": {
             "hashes": [
-                "sha256:baa479dc2e63e5c2ed51611b4d46cdf0295e2070d8d0b86b22f335ee5b954986",
-                "sha256:e8d6bd52ffd99841e3a57b34370a54841f12d3aab072af862cdcc50955288002"
+                "sha256:d1c52af7bceca1650d0f27728b29bb4925184aead7b55bccacf893b79a108604",
+                "sha256:e6cafd5643fc7b44fddfba1e5b521005675b0e07533ddad958a3554bc87d7330"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==0.8.0"
+            "version": "==0.8.1"
         },
         "six": {
             "hashes": [
