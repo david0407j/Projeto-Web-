@@ -13,6 +13,8 @@ collectfast = "*"
 gunicorn = "*"
 psycopg2-binary = "*"
 django-debug-toolbar = "*"
+sentry-sdk = "*"
+pytest = "*"
 
 [dev-packages]
 flake8 = "*"
