@@ -1,6 +1,8 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,13 +10,12 @@
     <title>RazorWolf</title>
     <meta name="description" content=" Venha para nossa barbearia e saia com um corte de cabelo impecável.">
     <meta name="author" content="Pedro Lopes">
-    <link rel="shortcut icon" href="{static 'img/favicon.ico'}" type="image/x-icon">
+    <link rel="icon" href="{% static 'img/favicon.ico' %}"/>
     <link href="/static/css/bootstrap.min.css" rel="stylesheet">
     <link href="/static/css/style.css" rel="stylesheet">
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
     <script src="/static/js/scripts.js"></script>
-  
 
 </head>
 <body>
@@ -24,13 +25,13 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
         </div>
       </nav>
 
-<div class="container-fluid">
+<div class="container">
     <div class="row">
         <div class="col-md-12">
 
@@ -84,33 +85,55 @@
             </nav>
             <div class="jumbotron">
                 <h2>
-                    Hello, world!
+                Estilo e precisão A arte da barbearia Pedro Lopes
                 </h2>
                 <p>
-                    This is a template for a simple marketing or informational website. It includes a large callout
-                    called the hero unit and three supporting pieces of content. Use it as a starting point to create
-                    something more unique.
+                Está na hora de dar um trato no visual! Venha para nossa barbearia e saia com um corte de cabelo impecáve
+                <a href="https://www.facebook.com/search/top?q=pedro%20lopes" target="_blank" >RazorWolf</a>
                 </p>
                 <p>
-                    <a class="btn btn-primary btn-large" href="#">Learn more</a>
                 </p>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <div class="card">
                         <h5 class="card-header">
-                            Card title
+                           Mais detalhes sobre a barbearia RazorWolf
                         </h5>
                         <div class="card-body">
                             <p class="card-text">
-                                Card content
+                               <img src="{%static 'img/ppg.ico'%}" alt="Foto de Pedro Lopes" class="img-thumbnail float-left mr-3"/>
+                               Um barbeiro é um profissional especializado em cortar e modelar cabelos,
+                                fazer barbas e cuidar da aparência masculina. Geralmente, eles trabalham em 
+                                barbearias ou salões de beleza masculinos. A biografia de um barbeiro pode 
+                                incluir sua formação em cursos específicos de barbearia, experiência de 
+                                trabalho em diferentes estabelecimentos, habilidades e técnicas dominadas ao longo da carreira, 
+                                além do seu estilo pessoal e abordagem no atendimento aos clientes
+                               
                             </p>
-                        </div>
-                        <div class="card-footer">
-                            Card footer
+                        
                         </div>
                     </div>
                 </div>
+                <footer>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <h3> Entrada em contato</h3>
+                                <address>
+                                +351 925 898 822
+                                <br/>
+                                <a href="maiton:Predrolopes123@gmail.com">Predrolopes123@gmail.com</a>
+                                </address>
+                            </div>
+                        </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                        {% now 'Y' %} RazorWolf. Todos direitos reservados.
+                    </div>
+                    </div>
+                </footer>
             </div>
         </div>
     </div>
