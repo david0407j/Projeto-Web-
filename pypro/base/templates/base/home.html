@@ -16,8 +16,21 @@
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
     <script src="/static/js/scripts.js"></script>
-
 </head>
+<style>
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: 0;
+    }
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-image: url({% static 'img/tmj.jpeg'%});
+
+    }
+</style>
+
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -109,35 +122,33 @@
                                 incluir sua formação em cursos específicos de barbearia, experiência de 
                                 trabalho em diferentes estabelecimentos, habilidades e técnicas dominadas ao longo da carreira, 
                                 além do seu estilo pessoal e abordagem no atendimento aos clientes
+                                <a href="https://www.facebook.com/search/top?q=pedro%20lopes" target="_blank" >RazorWolf</a>
                                
                             </p>
-                        
+
                         </div>
                     </div>
                 </div>
-                <footer>
+                <footer class="main-footer mt-5 pt-4 text-light">
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <h3> Entrada em contato</h3>
+                                <h3>Entre em Contato</h3>
                                 <address>
-                                +351 925 898 822
-                                <br/>
-                                <a href="maiton:Predrolopes123@gmail.com">Predrolopes123@gmail.com</a>
+                                    +351 925 898 822
+                                    <br/>
+                                    <a href="mailtonpedrolopes123@hotmail.com" class="text-light">pedrolopes123@hotmial.com</a>
                                 </address>
                             </div>
                         </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                        {% now 'Y' %} RazorWolf. Todos direitos reservados.
                     </div>
+                    <div class="rights pb-4">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    {% now 'Y' %} RazorWolf. Todos direitos reservados.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </footer>
-            </div>
-        </div>
-    </div>
-</div>
-
-</body>
-</html>
