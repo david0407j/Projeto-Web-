@@ -15,3 +15,6 @@ def test_title(resp):
 
 def test_home_link(resp):
    assert_contains(resp, f'href="{reverse("base:home")}">RazorWolf</a>' )
+
+def test_agenda_seu_horaio_aqui(resp):
+    assert resp.status_code == 200
