@@ -1,6 +1,5 @@
 name: CI
 
-
 on:
   push:
     branches:
@@ -8,6 +7,14 @@ on:
   pull_request:
     branches:
       - master
+      services:
+        postgres:
+          image: postgres:14
+          env:
+            POSTGRES_USER: pythonpro
+            POSTGRES_PASSWORD: Pythonpro
+            POSTGRES_DB: postgres
+          ports: [ '5434:5432' ]
 
 jobs:
   build:
